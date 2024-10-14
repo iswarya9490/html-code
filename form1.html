@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Form elements</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset style="width:550px;">
+            <legend>Personal details</legend>
+        <label for="firstname">First name</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="enter your firstname"  required title="enter name with minimum 2 characters" ><br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age" placeholder="enter your age" min="18" max="25" title="age should be 2 digits"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter email" title="abc@gmail.com"><br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" placeholder="enter dob"><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" placeholder="enter time"><br><br>
+        <lable for="url">URL:</lable>
+        <input for="url" id="url"><br><br>
+        <label>Select your skills:</label><br>
+        <input type="checkbox" value="java">java programming<br>
+        <input type="checkbox" value="python">python<br>
+        <input type="checkbox" value="Nosql">mongodb<br>
+        <input type="checkbox" value="MERN">node.js<br>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">others
+        <br><br>
+        <label>select  volume:</label><br>
+        <input type="range">
+        <br><br>
+        <label>select color:</label>
+        <input type="color">
+        <br><br>
+        <label>upload your files:</label><br><br>
+        <input type="file" accept=".jpg, .pdf, .png"> <br><br>
+        <label for="city">Select your city</label>
+        <select id="city"><br><br>
+            <option>select</option> 
+            <option value="pun">pune</option>
+            <option value="bnglr">banglore</option>
+            <option value="nag">nagpur</option><br><br>
+            <br><br>
+            <br><br>
+            <textarea>text area.........</textarea>
+        <br><br>
+        <input type="submit">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
